@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "A simple hello world gem"
   s.authors     = ["Jingta"]
   s.email       = 'jingta@gmail.com'
-  s.files       = ["lib/textgen.rb"]
+  s.files       = Dir.glob("{resx,lib}/**/*")
   s.homepage    =
     'http://rubygems.org/gems/textgen'
 end
